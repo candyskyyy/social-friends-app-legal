@@ -1,7 +1,7 @@
 # Privacy Policy — Social Friends
 
-**Last updated: 2026-04-11**
-**Effective date: 2026-04-11**
+**Last updated: 2026-04-25**
+**Effective date: 2026-04-25**
 
 ---
 
@@ -161,6 +161,7 @@ written data-processing agreements.
 | **Google (OAuth)**| Google user ID if you sign in with Google             | Global                     | Authentication                               |
 | **Apple (OAuth)** | Apple user ID if you sign in with Apple               | Global                     | Authentication                               |
 | **PostHog**       | Anonymous usage events (only if you opt in)           | United States              | Product analytics                            |
+| **Sentry**        | Crash + error reports (stack traces, OS/device, app version — never your friends, notes, or messages) | United States | Diagnose bugs and crashes |
 | **Apple / Google**| Push notification tokens                              | Global                     | Delivering reminder notifications            |
 
 We do **not** share data with:
