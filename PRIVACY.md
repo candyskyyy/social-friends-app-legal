@@ -1,7 +1,7 @@
 # Privacy Policy — Social Friends
 
-**Last updated: April 27, 2026**
-**Effective date: April 27, 2026**
+**Last updated: April 28, 2026**
+**Effective date: April 28, 2026**
 
 ---
 
@@ -143,32 +143,6 @@ audience scope) and any responses your friends make in `slot_responses`
 - You can hard-delete slots or responses at any time, or wipe everything
   when you delete your account.
 
-### 3b. Plan-via-link share tokens
-
-Each meeting you create can be assigned a UUID `share_token`. You can
-share the resulting link with anyone — including people who do not use
-Kindrd — to collect RSVPs.
-
-- The public RSVP page (served by an unauthenticated Edge Function)
-  exposes only **minimal information**: the host's first name, the
-  scheduled time, the location, the activity tags, and any free-text
-  notes you added to the meeting.
-- It does **not** expose any friendship-intelligence data such as
-  closeness scores, memory notes, social health data, or your friends
-  list.
-- Responders provide a name (required, max 100 characters), an optional
-  phone number (max 32 characters, **stored in plain text**), a response
-  (yes/no/maybe), and an optional note (max 1000 characters). We store
-  this in the `plan_responses` table. **Only the meeting owner can read
-  these responses** (RLS-enforced). Responders are not Kindrd users and
-  do not have accounts.
-- The RSVP page is rate-limited (10 responses per 3 minutes / 200
-  lifetime per token) to prevent abuse. By submitting an RSVP, the
-  responder acknowledges that the meeting host will see their name,
-  phone (if provided), and response.
-- You can revoke a share token at any time, after which the link stops
-  working.
-
 ### 3c. Polls
 
 When you create a poll, we store the poll question, options, and
@@ -230,9 +204,9 @@ To prevent abuse and enforce rate limits on certain APIs, we keep a small
 operational log:
 
 - `rpc_call_log` — records the timestamps and names of certain rate-limited
-  API calls you make (e.g. contact-discovery lookups, plan-via-link RSVPs).
-  Used for abuse prevention and rate-limit enforcement. Retained for 30 days;
-  pruned automatically by a daily cleanup job.
+  API calls you make (e.g. contact-discovery lookups). Used for abuse
+  prevention and rate-limit enforcement. Retained for 30 days; pruned
+  automatically by a daily cleanup job.
 
 ### 5. Device permissions
 

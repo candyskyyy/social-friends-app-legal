@@ -1,7 +1,7 @@
 # Terms of Service — Social Friends
 
-**Last updated: 2026-04-11**
-**Effective date: 2026-04-11**
+**Last updated: April 27, 2026**
+**Effective date: April 27, 2026**
 
 ---
 
@@ -87,6 +87,27 @@ You agree **not** to:
 
 Violations may result in content removal, account termination, and,
 where appropriate, legal action.
+
+Polls and "free to hang" slots are user-generated content and are
+subject to the same content rules as anything else you create in the
+Service. Do not use polls or slot notes to harass, defame, or
+otherwise target people.
+
+---
+
+## 5a. Plan-via-link RSVPs (non-users)
+
+The Service lets you generate a shareable link for a planned hang.
+Anyone with the link — including people who do not have a Kindrd
+account — can submit an RSVP through the public RSVP page.
+
+By submitting an RSVP, the responder agrees to these Terms and to the
+Privacy Policy with respect to the limited information they provide
+(name, optional phone number, response, optional note). RSVP
+information is visible only to the meeting owner. The host is
+responsible for sharing the link only with people they intend to
+invite, and for honouring any request from a responder to remove their
+RSVP.
 
 ---
 
